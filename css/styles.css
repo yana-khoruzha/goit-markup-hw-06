@@ -973,7 +973,7 @@ gap: 24px;
     flex-wrap: wrap;
     text-align: left;
     padding: 0 108px;
-    justify-content: center;
+    justify-content: normal;
     gap: 72px 24px;
   }
 
@@ -998,6 +998,7 @@ gap: 24px;
   .address-link {
     font-size: 13px;
   }
+
 }
 
 @media screen and (min-width: 1158px) {
@@ -1072,6 +1073,7 @@ gap: 24px;
     align-items: baseline;
     padding: 0 15px;
     flex-wrap: nowrap;
+    justify-content: center;
   }
 
   .footer-content {

@@ -73,7 +73,7 @@ img {
 }
 
 .page-header-container {
-  padding: 17.5px 16px;
+  padding: 16px;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -150,7 +150,6 @@ img {
   display: flex;
   flex-direction: column;
   gap: 40px;
-  margin-bottom: 168px;
 }
 
 .mob-menu-link {
@@ -362,8 +361,9 @@ gap: 24px;
 }
 
 .values-item-text {
+  color: #434455;
   font-size: 16px;
-  font-weight: 400;
+  font-weight: 500;
   line-height: 1.5;
   letter-spacing: 0.02em;
 }
@@ -495,7 +495,8 @@ gap: 24px;
 }
 
 .portfolio-image {
-  width: 288px;
+  width: 100%;
+  height: auto;
 }
 
 .portfolio-image-description {
@@ -528,7 +529,7 @@ gap: 24px;
 
 .footer {
   background-color: #2e2f42;
-  padding: 100px 0;
+  padding: 96px 0;
 }
 
 .footer-container {
@@ -841,6 +842,7 @@ gap: 24px;
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
     border 250ms cubic-bezier(0.4, 0, 0.2, 1),
     fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  flex-shrink: 0;
 }
 
 .modal-checkbox:checked + .checkbox-label > .modal-label-box {
@@ -964,10 +966,6 @@ gap: 24px;
     width: calc((100% - 1 * 24px) / 2);
   }
 
-  .portfolio-image {
-    width: 360px;
-  }
-
   .footer-container {
     flex-direction: row;
     flex-wrap: wrap;
@@ -1045,6 +1043,10 @@ gap: 24px;
     width: calc((100% - 3 * 24px) / 4);
   }
 
+  .values-item-text {
+    font-weight: 400;
+  }
+
   .values-item-heading {
     font-size: 20px;
     font-weight: 500;
@@ -1067,6 +1069,10 @@ gap: 24px;
 
   .portfolio-card {
     width: calc((100% - 2 * 24px) / 3);
+  }
+
+  .footer {
+    padding: 100px 0;
   }
 
   .footer-container {
